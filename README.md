@@ -1,8 +1,4 @@
-Para tu repositorio de GitHub, el README.md es tu carta de presentación. Como estás trabajando con una landing page de venta automotriz, el enfoque debe ser profesional pero sencillo, resaltando que es un sitio funcional y listo para la conversión.
 
-Aquí tienes una estructura sugerida que puedes copiar y pegar (solo asegúrate de cambiar los links donde corresponda):
-
-Markdown
 # 🚗 Landing Page Volkswagen Argentina - Gestión de Ventas
 
 Esta es una landing page profesional desarrollada para la promoción y venta de la línea **Volkswagen 0km 2026**. El sitio está optimizado para captación de leads mediante integración directa con **WhatsApp**.
