@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volkswagen Oficial Argentina | Modelos 0km 2026</title>
+<style>
+:root { --vw-blue: #001e50; --vw-light-blue: #00b1eb; --light-bg: #f0f2f5; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: var(--light-bg); }
+
+header { background: #fff; padding: 15px 20px; border-bottom: 3px solid var(--vw-blue); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; }
+.logo-box { display: flex; align-items: center; font-weight: bold; font-size: 1.2rem; color: var(--vw-blue); }
+.logo-box img { height: 40px; margin-right: 10px; }
+
+.hero-vw { 
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=1200') center/cover no-repeat;
+height: 450px; color: white; display: flex; flex-direction: column; justify-content: center; padding: 0 10%;
+}
+.hero-vw h1 { font-size: 3rem; margin: 0; text-transform: uppercase; font-weight: 900; }
+.hero-vw p { font-size: 1.3rem; background: var(--vw-blue); display: inline-block; padding: 5px 15px; margin-top: 10px; }
+
+.main-container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+.section-title { color: var(--vw-blue); border-left: 5px solid var(--vw-light-blue); padding-left: 15px; margin: 40px 0 20px; text-transform: uppercase; }
+.grid-autos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+
+.auto-card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid #ddd; transition: 0.3s; display: flex; flex-direction: column; }
+.auto-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+.auto-card img { width: 100%; height: 200px; object-fit: cover; background: #eee; }
+
+.auto-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+.auto-info h2 { margin: 0; font-size: 1.4rem; color: var(--vw-blue); }
+.auto-desc { font-size: 0.9rem; color: #666; margin: 10px 0; min-height: 60px; }
+.auto-badge { display: inline-block; padding: 4px 10px; background: #eef2f7; color: var(--vw-blue); font-weight: bold; font-size: 0.8rem; border-radius: 4px; margin-bottom: 15px; width: fit-content; }
+
+.btn-consultar { display: block; text-align: center; background: var(--vw-blue); color: #fff; padding: 12px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; margin-top: auto; }
+.btn-consultar:hover { background: var(--vw-light-blue); }
+
+.quiz-box { background: var(--vw-blue); color: white; padding: 50px 20px; margin-top: 50px; text-align: center; }
+.quiz-content { max-width: 600px; margin: auto; }
+.quiz-step { display: none; }
+.quiz-step.active { display: block; }
+.quiz-opt { display: block; width: 100%; background: #fff; color: #333; border: none; padding: 15px; margin: 10px 0; border-radius: 5px; cursor: pointer; font-weight: bold; }
+
+.ws-float { position: fixed; bottom: 25px; right: 25px; background: #25d366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 1000; text-decoration: none; font-size: 35px; }
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo-box">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg" alt="Volkswagen">
+OFICIAL ARGENTINA
+</div>
+<div style="font-weight: bold; color: #555;">ASESOR: +54 9 11 7368-6936</div>
+</header>
+
+<section class="hero-vw">
+<h1>NUEVO VOLKSWAGEN TERA</h1>
+<p>MOVILIDAD MODERNA AL ALCANCE DE TODOS</p>
+</section>
+
+<div class="main-container">
+    
+    <h2 class="section-title">Modelos de Entrada y Sedanes</h2>
+    <div class="grid-autos">
+        <div class="auto-card">
+            <img src="https://images.unsplash.com/photo-1567818735868-e71b99932e29?auto=format&fit=crop&q=80&w=600" alt="Volkswagen Tera">
+            <div class="auto-info">
+                <span class="auto-badge">NUEVO LANZAMIENTO</span>
+                <h2>Volkswagen Tera</h2>
+                <p class="auto-desc">El nuevo modelo que reemplaza al histórico Gol. Diseño moderno y las cuotas más accesibles del sistema.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa el nuevo Volkswagen Tera" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+
+        <div class="auto-card">
+            <img src="https://images.unsplash.com/photo-1616422285623-13ff0167c95c?auto=format&fit=crop&q=80&w=600" alt="Polo Track">
+            <div class="auto-info">
+                <span class="auto-badge">IDEAL PRIMER AUTO</span>
+                <h2>Polo Track</h2>
+                <p class="auto-desc">Vehículo compacto enfocado en la robustez y eficiencia de consumo para el uso urbano diario.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa el Polo Track" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+
+        <div class="auto-card">
+            <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&q=80&w=600" alt="Virtus">
+            <div class="auto-info">
+                <span class="auto-badge">ESPACIO PARA FAMILIAS</span>
+                <h2>Volkswagen Virtus</h2>
+                <p class="auto-desc">Sedán con gran amplitud interior y capacidad de baúl. La opción preferida para viajes largos.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa el Virtus" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">SUV y Crossovers</h2>
+    <div class="grid-autos">
+        <div class="auto-card">
+            <div class="auto-info">
+                <span class="auto-badge">ESTÉTICA CUPÉ</span>
+                <h2>Volkswagen Nivus</h2>
+                <p class="auto-desc">Combina diseño deportivo con tecnología avanzada, incluyendo el sistema multimedia VW Play.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa el Nivus" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+
+        <div class="auto-card">
+            <div class="auto-info">
+                <span class="auto-badge">PLAN 70/30</span>
+                <h2>Volkswagen T-Cross</h2>
+                <p class="auto-desc">SUV compacto equilibrado, versátil para la ciudad y confortable para viajes. El más vendido.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa la T-Cross" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+
+        <div class="auto-card">
+            <div class="auto-info">
+                <span class="auto-badge">INDUSTRIA NACIONAL</span>
+                <h2>Volkswagen Taos</h2>
+                <p class="auto-desc">SUV de fabricación nacional con mayor potencia, espacio y equipamiento de seguridad premium.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa la Taos" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Pickups y Utilitarios</h2>
+    <div class="grid-autos">
+        <div class="auto-card">
+            <div class="auto-info">
+                <span class="auto-badge">FUERZA Y CONFORT</span>
+                <h2>Volkswagen Amarok</h2>
+                <p class="auto-desc">Pickup mediana fabricada en Argentina. Líder en confort de marcha y potencia en su segmento.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa la Amarok" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+
+        <div class="auto-card">
+            <div class="auto-info">
+                <span class="auto-badge">TRABAJO Y OCIO</span>
+                <h2>Volkswagen Saveiro</h2>
+                <p class="auto-desc">Pickup compacta diseñada tanto para el trabajo duro como para el tiempo libre. Versión Trendline.</p>
+                <a href="https://wa.me/5491173686936?text=Hola! Me interesa la Saveiro" class="btn-consultar">CONSULTAR PRECIO</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="quiz-box">
+<div class="quiz-content">
+<h2 id="quiz-title">¿Cuál es tu próximo Volkswagen?</h2>
+<div id="q1" class="quiz-step active">
+<p>1. ¿Qué uso principal le vas a dar?</p>
+<button class="quiz-opt" onclick="next(2, 'Personal')">Uso Personal / Familia</button>
+<button class="quiz-opt" onclick="next(2, 'Trabajo')">Trabajo / Carga / Campo</button>
+</div>
+<div id="q2" class="quiz-step">
+<p>2. ¿Tenés un usado para entregar?</p>
+<button class="quiz-opt" onclick="done('Sí')">Sí, quiero entregar mi auto</button>
+<button class="quiz-opt" onclick="done('No')">No, quiero financiar el 100%</button>
+</div>
+<div id="qFinal" class="quiz-step">
+<h3>¡Excelente elección!</h3>
+<p>Tenemos planes 60/40, 80/20 y 70/30 adaptados a vos.</p>
+<a id="btn-final" href="#" class="btn-consultar">HABLAR CON ASESOR VW AHORA</a>
+</div>
+</div>
+</section>
+
+<footer style="background: #000; color: #fff; text-align: center; padding: 30px;">
+<p>ASESORAMIENTO OFICIAL VOLKSWAGEN ARGENTINA © 2026</p>
+</footer>
+
+<a href="https://wa.me/5491173686936" class="ws-float" target="_blank">
+    <svg style="width:35px;height:35px" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.66 20.15 9.3 19.8 8.1 19.14L7.81 18.96L4.69 19.79L5.53 16.74L5.33 16.41C4.62 15.28 4.25 13.97 4.25 12.63L4.25 11.91C4.25 7.64 7.75 4.14 12.03 4.14L12.05 3.67M9.53 7.62C9.33 7.62 9 7.7 8.73 8C8.45 8.3 7.68 9.04 7.68 10.55C7.68 12.05 8.77 13.5 8.92 13.7C9.07 13.9 11.04 17.06 14.13 18.29C17.22 19.53 17.22 19.12 17.77 19.07C18.32 19.03 19.53 18.36 19.78 17.65C20.03 16.94 20.03 16.33 19.95 16.21C19.88 16.09 19.68 16.02 19.38 15.87C19.08 15.72 17.61 15 17.33 14.9C17.06 14.8 16.86 14.75 16.66 15.05C16.46 15.35 15.89 16.02 15.72 16.22C15.55 16.41 15.38 16.44 15.08 16.29C14.78 16.14 13.82 15.83 12.69 14.82C11.8 14.03 11.2 13.06 11.03 12.76C10.86 12.46 11.01 12.3 11.16 12.15C11.29 12.01 11.45 11.79 11.6 11.62C11.75 11.45 11.8 11.33 11.9 11.13C12 10.93 11.95 10.75 11.88 10.6C11.8 10.45 11.23 9.04 11 8.46C10.77 7.91 10.53 7.99 10.36 7.99C10.2 7.99 10.03 7.99 9.85 7.99C9.68 7.99 9.4 8.06 9.17 8.31C8.93 8.56 8.27 9.17 8.27 10.42C8.27 11.67 9.18 12.88 9.3 13.06C9.43 13.23 11.05 15.87 13.62 16.88C14.23 17.13 14.7 17.28 15.08 17.41C15.69 17.6 16.25 17.57 16.7 17.5C17.19 17.43 18.21 16.88 18.42 16.28C18.63 15.68 18.63 15.17 18.57 15.07C18.5 14.97 18.3 14.9 18 14.75Z" />
+    </svg>
+</a>
+
+<script>
+    let r1 = "";
+    function next(s, v) {
+        r1 = v;
+        document.getElementById('q1').classList.remove('active');
+        document.getElementById('q2').classList.add('active');
+    }
+    function done(r2) {
+        document.getElementById('q2').classList.remove('active');
+        document.getElementById('qFinal').classList.add('active');
+        document.getElementById('btn-final').href = "https://wa.me/5491173686936?text=Hola! Soy del sitio VW. Busco uso " + r1 + ". Entrego usado: " + r2;
+    }
+</script>
+
+</body>
+</html>
